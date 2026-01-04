@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@lottiefiles/lottie-interactivity": "^1.6.2",
+    "lottie-web": "^5.13.0"
+  }
+}

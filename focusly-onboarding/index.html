@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Focusly Onboarding</title>
+  <link rel="stylesheet" href="/src/styles/main.css" />
+</head>
+
+<body>
+
+  <main class="l-page">
+
+    <div class="c-device">
+      <div class="c-device__screen">
+
+        <div class="c-onboarding js-onboarding">
+
+          <!-- SCHERM 1 -->
+          <section class="c-screen c-screen--1">
+            <div class="c-lottie js-screen-1"></div>
+            <p class="c-text">Te veel taken. Te weinig overzicht.</p>
+            <div class="c-nav">
+              <button class="c-btn js-next">Volgende</button>
+            </div>
+          </section>
+
+          <!-- SCHERM 2 -->
+          <section class="c-screen c-screen--2 is-hidden">
+            <div class="c-lottie js-screen-2"></div>
+            <p class="c-text">Breng alles samen op één plek.</p>
+            <div class="c-nav">
+              <button class="c-btn js-prev">Vorige</button>
+              <button class="c-btn js-next">Volgende</button>
+            </div>
+          </section>
+
+          <!-- SCHERM 3 -->
+          <section class="c-screen c-screen--3 is-hidden">
+            <div class="c-lottie js-screen-3"></div>
+            <p class="c-text">Plan slim, stap voor stap.</p>
+            <div class="c-nav">
+              <button class="c-btn js-prev">Vorige</button>
+              <button class="c-btn js-next">Volgende</button>
+            </div>
+          </section>
+
+          <!-- SCHERM 4 -->
+          <section class="c-screen c-screen--4 is-hidden">
+            <div class="c-lottie js-screen-4"></div>
+            <p class="c-text">Blijf gefocust, zonder afleiding.</p>
+            <div class="c-nav">
+              <button class="c-btn js-prev">Vorige</button>
+              <button class="c-btn js-next">Volgende</button>
+            </div>
+          </section>
+
+          <!-- SCHERM 5 -->
+          <section class="c-screen c-screen--5 is-hidden">
+            <div class="c-lottie js-screen-5"></div>
+            <p class="c-text">Klaar om met rust te studeren?</p>
+            <div class="c-nav">
+              <button class="c-btn js-prev">Vorige</button>
+              <button class="c-btn js-finish">Start</button>
+            </div>
+          </section>
+
+          <!-- PROGRESSIEBOLLETJES -->
+          <div class="c-progress">
+            <span class="c-bullet js-bullet" data-index="0"></span>
+            <span class="c-bullet js-bullet" data-index="1"></span>
+            <span class="c-bullet js-bullet" data-index="2"></span>
+            <span class="c-bullet js-bullet" data-index="3"></span>
+            <span class="c-bullet js-bullet" data-index="4"></span>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <script type="module" src="/src/main.js"></script>
+
+</body>
+
+</html>
