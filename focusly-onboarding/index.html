@@ -5,6 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Focusly Onboarding</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/src/styles/main.css" />
 </head>
 
@@ -17,56 +20,63 @@
 
         <div class="c-onboarding js-onboarding">
 
-          <!-- SCHERM 1 -->
           <section class="c-screen c-screen--1">
-            <div class="c-lottie js-screen-1"></div>
-            <p class="c-text">Te veel taken. Te weinig overzicht.</p>
+            <div class="c-overlay__blob"><svg width="437" height="561" viewBox="0 0 437 561" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="c-blob__path" d="M321.05 120.193C393.84 193.563 461.85 311.333 428.07 353.523C393.69 396.453 280.08 328.493 240.35 376.333C201.22 423.453 284.54 521.743 254.39 551.773C214.95 591.053 0.290303 494.623 0.000303092 393.883C-0.269697 301.493 179.94 271.403 183.03 160.553C185.37 76.8232 84.5403 22.9132 98.2403 4.41324C112.44 -14.7668 231 29.4332 321.05 120.203V120.193Z" fill="#4F46E5" />
+              </svg>
+            </div>
+            <h1>Focusly</h1>
+
+            <h2>Welcome!</h2>
+            <p class="c-text js-typing">Work at ease and peace</p>
+
             <div class="c-nav">
-              <button class="c-btn js-next">Volgende</button>
+              <button class="c-btn js-next">Next</button>
             </div>
           </section>
 
-          <!-- SCHERM 2 -->
           <section class="c-screen c-screen--2 is-hidden">
-            <div class="c-lottie js-screen-2"></div>
-            <p class="c-text">Breng alles samen op één plek.</p>
+            <div class="c-lottie c-lottie--2 js-screen-2"></div>
+            <p class="c-text"> NO MORE <br> Distraction <br> & <br> Notifications...</p>
             <div class="c-nav">
-              <button class="c-btn js-prev">Vorige</button>
-              <button class="c-btn js-next">Volgende</button>
+              <button class="c-btn js-prev">Previous</button>
+              <button class="c-btn js-next">Next</button>
             </div>
           </section>
 
-          <!-- SCHERM 3 -->
           <section class="c-screen c-screen--3 is-hidden">
             <div class="c-lottie js-screen-3"></div>
-            <p class="c-text">Plan slim, stap voor stap.</p>
+            <p class="c-text">Bring peace at 1 place</p>
             <div class="c-nav">
-              <button class="c-btn js-prev">Vorige</button>
-              <button class="c-btn js-next">Volgende</button>
+              <button class="c-btn js-prev">Previous</button>
+              <button class="c-btn js-next">Next</button>
             </div>
           </section>
 
-          <!-- SCHERM 4 -->
           <section class="c-screen c-screen--4 is-hidden">
             <div class="c-lottie js-screen-4"></div>
-            <p class="c-text">Blijf gefocust, zonder afleiding.</p>
+            <p class="c-text">Fast and structured</p>
             <div class="c-nav">
-              <button class="c-btn js-prev">Vorige</button>
-              <button class="c-btn js-next">Volgende</button>
+              <button class="c-btn js-prev">Previous</button>
+              <button class="c-btn js-next">Next</button>
             </div>
           </section>
 
-          <!-- SCHERM 5 -->
           <section class="c-screen c-screen--5 is-hidden">
+            <div class="c-overlay__blob"><svg width="437" height="561" viewBox="0 0 437 561" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="c-blob__path" d="M321.05 120.193C393.84 193.563 461.85 311.333 428.07 353.523C393.69 396.453 280.08 328.493 240.35 376.333C201.22 423.453 284.54 521.743 254.39 551.773C214.95 591.053 0.290303 494.623 0.000303092 393.883C-0.269697 301.493 179.94 271.403 183.03 160.553C185.37 76.8232 84.5403 22.9132 98.2403 4.41324C112.44 -14.7668 231 29.4332 321.05 120.203V120.193Z" fill="#4F46E5" />
+              </svg>
+            </div>
+            <h1>Focusly</h1>
             <div class="c-lottie js-screen-5"></div>
-            <p class="c-text">Klaar om met rust te studeren?</p>
+            <p class="c-text js-typing">Start today!</p>
+
             <div class="c-nav">
-              <button class="c-btn js-prev">Vorige</button>
-              <button class="c-btn js-finish">Start</button>
+              <button class="c-btn js-prev">Previous</button>
+              <button class="c-btn c-btn--start js-finish">Start</button>
             </div>
           </section>
 
-          <!-- PROGRESSIEBOLLETJES -->
           <div class="c-progress">
             <span class="c-bullet js-bullet" data-index="0"></span>
             <span class="c-bullet js-bullet" data-index="1"></span>
