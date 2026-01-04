@@ -1,6 +1,6 @@
 function typeText(element, speed = 50) {
   const text = element.textContent;
-  element.textContent = ''; // eerst leeg maken
+  element.textContent = ''; 
   let i = 0;
   const interval = setInterval(() => {
     element.textContent += text[i];
@@ -9,8 +9,6 @@ function typeText(element, speed = 50) {
   }, speed);
 }
 
-// Selecteer je element
 const textElement = document.querySelector('.js-typing');
 
-// Trigger de animatie bijvoorbeeld meteen:
-typeText(textElement, 50); // 50ms per letter
+typeText(textElement, 50);
